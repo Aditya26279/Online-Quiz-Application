@@ -1,0 +1,57 @@
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDE / Editor Files
+# =========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+error_log
+
+# =========================
+# Environment / Config
+# =========================
+.env
+.env.local
+
+# Ignore config if it contains DB credentials
+.config.php
+
+# =========================
+# Dependency folders
+# =========================
+vendor/
+node_modules/
+
+# =========================
+# Build / Cache files
+# =========================
+cache/
+tmp/
+*.cache
+
+# =========================
+# Uploads (if added later)
+# =========================
+uploads/
+files/
+
+# =========================
+# Database dumps (optional)
+# =========================
+*.sql.backup
+*.sqlite
